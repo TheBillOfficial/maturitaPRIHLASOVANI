@@ -23,8 +23,8 @@ class PrihlasovaniPresenter extends \Nette\Application\UI\Presenter {
             $mail->setBody('Vaše nové heslo je &nbsp;' . $password = rand(1133557799,9977553311));
 
             $mailer = new \Nette\Mail\SmtpMailer([ 'smtp' => true,'host' => 'smtp.volny.cz',
-                'username' => 'andrejs',
-                'password' => 'phABpy3mwY',
+                'username' => '',
+                'password' => '',
                 'secure' => 'ssl']);
                 $mailer->send($mail);
                } 
