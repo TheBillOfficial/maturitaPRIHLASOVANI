@@ -1,9 +1,9 @@
 <?php
-// source: Z:\Programovani\Projekty\NETTEmaturitaDVA\app\presenters/templates/Komponenty/default.latte
+// source: Z:\Programovani\Projekty\NETTEmaturitaDVA\app\presenters/templates/Prihlasovani/success.latte
 
 use Latte\Runtime as LR;
 
-class Template85628703c0 extends Latte\Runtime\Template
+class Templated003703660 extends Latte\Runtime\Template
 {
 	public $blocks = [
 		'content' => 'blockContent',
@@ -33,13 +33,6 @@ class Template85628703c0 extends Latte\Runtime\Template
 
 	function blockContent($_args)
 	{
-		extract($_args);
-?>
-
-<?php
-		/* line 3 */ $_tmp = $this->global->uiControl->getComponent("komponenty");
-		if ($_tmp instanceof Nette\Application\UI\IRenderable) $_tmp->redrawControl(null, false);
-		$_tmp->render();
 		
 	}
 

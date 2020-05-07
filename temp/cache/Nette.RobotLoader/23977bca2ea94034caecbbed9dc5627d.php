@@ -22,6 +22,11 @@ return array (
       'file' => 'Z:\\Programovani\\Projekty\\NETTEmaturitaDVA\\app\\model\\Forms\\Komponenty.php',
       'time' => 1587479791,
     ),
+    'Prihlasovani' => 
+    array (
+      'file' => 'Z:\\Programovani\\Projekty\\NETTEmaturitaDVA\\app\\model\\Forms\\Prihlasovani.php',
+      'time' => 1588501512,
+    ),
     'App\\Model\\UserManager' => 
     array (
       'file' => 'Z:\\Programovani\\Projekty\\NETTEmaturitaDVA\\app\\model\\UserManager.php',
@@ -67,10 +72,15 @@ return array (
       'file' => 'Z:\\Programovani\\Projekty\\NETTEmaturitaDVA\\app\\router\\RouterFactory.php',
       'time' => 1580942146,
     ),
+    'App\\Presenters\\PrihlasovaniPresenter' => 
+    array (
+      'file' => 'Z:\\Programovani\\Projekty\\NETTEmaturitaDVA\\app\\presenters\\PrihlasovaniPresenter.php',
+      'time' => 1588841682,
+    ),
   ),
   1 => 
   array (
-    'Nette\\Environment' => 4,
-    'App\\IndexModule\\Presenters\\PhpPresenter' => 1,
+    'Nette\\Environment' => 6,
+    'Sign' => 3,
   ),
 );
