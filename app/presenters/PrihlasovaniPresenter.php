@@ -14,7 +14,7 @@ class PrihlasovaniPresenter extends \Nette\Application\UI\Presenter {
     }
 
     public function actionZapomenuteHeslo($email) {
-        $emails = ['andrejs@volny.cz'];
+        $emails = ['andrejs@volny.cz','tatar@ssemi.cz'];
         foreach ($emails as $emails2) {
             $mail = new \Nette\Mail\Message();
             $mail->setFrom($email);
